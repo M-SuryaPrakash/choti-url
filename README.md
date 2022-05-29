@@ -1,2 +1,3 @@
-#Choti Url
-Easy and Simple to use Url Shortner
+# Choti Url
+
+Url Shortner - Easy and Simple to use 

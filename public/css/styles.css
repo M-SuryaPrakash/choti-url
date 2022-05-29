@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #d1f4ed;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.title {
+    margin: 3% 10%;
+    padding: 2%;
+}
+
+h1 {
+    transition: 500ms;
+    font-family: 'Satisfy', cursive;
+    font-size: 7rem;
+    text-align: center;
+}
+
+h6 {
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.share {
+    font-size: 0.95rem;
+    font-family: 'Satisfy', cursive;
+}
+
+h1:hover {
+    transition: 500ms;
+    transform: scale(1.2);
+    cursor: default;
+}
+
+hr {
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 4%;
+    margin: 20px auto;
+    border-color: #6f7275;
+    color: #E4F9F5;
+}
+
+
+.box {
+    align-items: center;
+    margin: 2% 10%;
+    padding: 1%;
+}
+
+.row {
+    margin: 3%;
+}
+
+.feedback {
+    padding: 1%;
+    text-align: left;
+    color: red;
+    font-size: 0.8rem;
+}
+
+.btn-outline-dark {
+    border-color: #ced4da;
+    color: #6f7275;
+    background-color: white;
+}
+
+.btn-outline-dark:hover {
+    background-color: #6f7275;
+    border-color: #ced4da;
+    color: white;
+}
+
+.footer-icon {
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px 20px 20px 20px;
+    transition: 500ms;
+}
+
+.footer-icon:hover {
+    margin: 10px 30px;
+    transition: 500ms;
+    transform: scale(1.5);
+}
+
+.input-group {
+    transition: 500ms;
+}
+
+.getLink {
+    transition: 500ms;
+}
+
+.input-group:hover {
+    transition: 500ms;
+    transform: scale(1.1);
+}
+
+.getLink:hover {
+    transition: 500ms;
+    transform: scale(1.1);
+}
+
+.output {
+    transition: 500;
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width:360px) and (max-width:768px) {
+     .title {
+         margin-top: 15%;
+     }
+     h1 {
+         font-size: 5rem;
+     }
+     .col-3 {
+         width: 100%;
+     }
+     .col-9 {
+         width: 100%;
+     }
+     .btn-success {
+         margin-top: 28px;
+         margin-bottom: 20px;
+         width: 25%px;
+     }
+     .box{
+         margin: 3% 10%;
+     }
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .title {
+        margin-top: 15%;
+    }
+    .box{
+        margin: 3% 10%;
+    }
+}
+.copyright {
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+span {
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Satisfy', cursive;
+}

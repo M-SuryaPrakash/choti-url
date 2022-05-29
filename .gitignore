@@ -1,0 +1,11 @@
+# ignoring .gitignore file
+#.gitignore
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+
+# other unnecessary files
+others/

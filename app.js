@@ -59,7 +59,7 @@ app.post("/", function (req, res) {
 
                 new_url.save((err, data) => {
                     if (!err) {
-                        const short_url = "http://" + req.headers.host + "/" + short_code;
+                        const short_url = req.protocol + "://" + req.headers.host + "/" + short_code;
                         res.json({
                             valid: 1,
                             short_url: short_url
